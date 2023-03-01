@@ -1,0 +1,25 @@
+extends ../layout.pug
+block content
+    .container
+        .row
+            .col-12
+                h1.title IT News
+                p.lead Welcome to my IT news website. Here you can find all the latest news.
+        .row
+            .col-12
+                .card
+                    .card-header
+                        h2.title Article 1
+                        p.meta Written by John Doe on February 27, 2023
+                    .card-body
+                        p.preview This is a short preview of the article. It should be brief but informative, giving readers an idea of what the article is about.
+                    .card-footer
+                        a.btn.btn-primary(href="/homepage/article1") Read More
+                .card
+                    .card-header
+                        h2.title Article 2
+                        p.meta Written by John Doe on February 27, 2023
+                    .card-body
+                        p.preview This is a short preview of the article. It should be brief but informative, giving readers an idea of what the article is about.
+                    .card-footer
+                        a.btn.btn-primary(href="/homepage/article2") Read More
